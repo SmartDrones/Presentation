@@ -1,0 +1,282 @@
+/**
+ * Black theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #f0f0f0;
+  background-color: #f0f0f0; }
+
+.reveal {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  color: #262626; }
+
+::selection {
+  color: #fff;
+  background: #eb5252;
+  text-shadow: none; }
+
+
+.reveal blockquote{
+  background: rgba(0,0,0,.8);
+  color: white;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  padding: 0.4em;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #262626;
+  font-family: "Montserrat", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none; }
+
+.reveal h1 {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a:not(.image) {
+  color: #eb5252;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:not(.image):hover {
+  color: #f6adad;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #d81919; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  border: 4px solid #262626;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #eb5252;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #eb5252; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #eb5252; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #eb5252; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #eb5252; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #f6adad; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #f6adad; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #f6adad; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #f6adad; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #eb5252;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  color: #eb5252; }
+
+ul li{
+  padding-top: 20px;
+}
+
+.device{
+
+}
+
+
+.reveal img, .reveal video, .reveal iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+.imgbg {
+  background-size: contain;
+  /*width: 100%;*/
+  height: 100%;
+  background-repeat: no-repeat !important;
+}
+.img1 {
+  background: url(../../img/1.png);
+}
+.img2 {
+  background: url(../../img/2.png);
+}
+.img3 {
+  background: url(../../img/3.png);
+}
+.img4 {
+  background: url(../../img/4.png);
+}
+.img5 {
+  background: url(../../img/5.png);
+}
+.img6 {
+  background: url(../../img/6.png);
+}
+.img7 {
+  background: url(../../img/7.png);
+}
+.img8 {
+  background: url(../../img/8.png);
+}
+.img9 {
+  background: url(../../img/9.png);
+}
+.imgdix {
+  background: url(../../img/10.png);
+  background-position: center;
+}
+/*# sourceMappingURL=sopra.css.map */
+
+
+li.checked{
+  background: url(../../img/checked.svg) no-repeat left top;
+  padding: 12px 0px 7px 60px;
+  background-size: 2em;
+  list-style: none;
+  margin: 0;
+}
+li.no-checked{
+  background: url(../../img/no-checked.svg) no-repeat left top;
+  background-size: 2em;
+  padding: 12px 0px 7px 60px;
+  list-style: none;
+  margin: 0;
+}
+
+
+
+/*//////////// Slide pres equipe///////////////////*/
+
+.user {
+  display: inline-block;
+  margin: 1% !important;
+}
+.userImage {
+  width: 100px;
+  height: 100px;
+}
+
+img.hackathon{
+  border-width: 0px !important;
+  box-shadow: 0 0 0 !important;
+}
+
+div.userContainer{
+  display: block;
+  width: 110%;
+  margin-left:-5%;
+  text-align: center;
+}
+
+.user>img{
+  border-radius: 100px;
+}
+
+.user>h5{
+  font-size: .8em !important;
+  line-height: 1em !important;
+}
+
+img.archiTechno{
+  border-width: 0px !important;
+  box-shadow: 0 0 0 !important;
+  margin: 0 !important;
+  margin-top: -60px !important;
+}
+
+/*//////////// Slides Tests et integration continue///////////////////*/
+li.justification{
+margin-left: 100px;
+}
+
+img.integration{
+  border-width: 0px !important;
+  box-shadow: 0 0 0 !important;
+}
+
+img.trello{
+  border-width: 0px !important;
+  box-shadow: 0 0 0 !important;
+}
+
+img.noborder{
+  border-width: 0px !important;
+  box-shadow: 0 0 0 !important;
+}
+
+.reveal .slide-number{
+  font-size: 1.2em;
+  left: 15px;
+  right: auto;
+}
+
+.reveal li{
+  margin: .3em 0 !important;
+}
